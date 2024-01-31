@@ -22,6 +22,15 @@ class Lab2 {
         System.out.print("What's your name? ");
 
         String customerName = input.nextLine();
+        for(i=0; i<10; i++){
+            String lotteryNumbers = "";
+            for(c=0; c<6; c++){
+                Random rand = new Random();
+                int number = rand.nextInt(99);
+                    number = rand.nextInt()
+            }
+        }
+
         String string = "004-034556";
         String[] parts = string.split("-");
         System.out.println(parts);
