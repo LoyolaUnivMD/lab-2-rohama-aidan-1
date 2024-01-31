@@ -42,10 +42,11 @@ class Lab2 {
 
         String[] parts = customerName.split(" ");
         String firstName = parts[0];
-
+        System.out.println("____________________");
         System.out.println("Goodluck "+firstName+"!");
         System.out.println("Estimated Jackpot:");
         System.out.println(dfmt.format(prize));
+        System.out.println("____________________");
 
 
     }
