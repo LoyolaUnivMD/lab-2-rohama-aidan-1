@@ -1,0 +1,15 @@
+import java.util.random
+import java.util.scanner
+print out description of the program
+ask for the player's name
+for set i to 0, i < 10, i = i +1
+    a. Initialize String lotteryNumbers to an empty string
+    b. for set c to 0 , c < 6 , c = c + 1
+        i. Generate a random number as a string
+        ii. Concatenate that number onto lotteryNumbers
+    c. Print lotterynumbers
+split player's name into an array called name
+assign firstName to name index 0
+assign lastName to name index 1
+Print "Goodluck" + firstName
+Print estimated jackpot
